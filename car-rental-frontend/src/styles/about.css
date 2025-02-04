@@ -1,0 +1,52 @@
+.about-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-container h2 {
+    margin-top: 20px;
+    color: #007bff;
+}
+
+.about-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-container ul li {
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+}
+
+.about-container ul li::before {
+    content: "✔ ";
+    color: green;
+    font-weight: bold;
+}
+
+.about-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+}

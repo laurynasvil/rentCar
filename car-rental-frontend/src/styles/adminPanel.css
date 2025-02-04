@@ -1,0 +1,77 @@
+.admin-panel-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: 60vh;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #007bff;
+  color: white;
+}
+
+.admin-reservation-list {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-reservation-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-action-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.admin-btn-approve {
+  background: #4caf50;
+  color: white;
+}
+
+.admin-btn-reject {
+  background: #f44336;
+  color: white;
+}
+
+.admin-add-car-btn {
+  display: inline-block;
+  background-color: #28a745; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: background 0.3s ease;
+}
+
+.admin-add-car-btn:hover {
+  background-color: #218838;
+}
+
+.admin-add-car-btn:active {
+  background-color: #1e7e34;
+}

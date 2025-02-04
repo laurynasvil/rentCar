@@ -1,0 +1,129 @@
+.home-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .home-features {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .home-feature {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .home-feature::before {
+    content: '\2713';
+    color: #28a745;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+  
+  .home-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-login-btn {
+    background-color: #007bff;
+  }
+  
+  .home-login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-register-btn {
+    background-color: #28a745;
+  }
+  
+  .home-register-btn:hover {
+    background-color: #218838;
+  }
+
+  .home-cars-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .home-cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .home-car-card {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .home-car-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .home-car-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-car-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-no-cars {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+  }
+  

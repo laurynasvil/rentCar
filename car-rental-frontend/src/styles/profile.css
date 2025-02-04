@@ -1,0 +1,89 @@
+.profile-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 53vh;
+  }
+  
+  .profile-info p {
+    font-size: 17px;
+    color: #333;
+    margin: 10px 0;
+    
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .profile-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .edit-btn, .save-btn, .cancel-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .cancel-btn {
+    background: #dc3545;
+  }
+  
+  .edit-btn:hover, .save-btn:hover {
+    background: #0056b3;
+  }
+  
+  .cancel-btn:hover {
+    background: #c82333;
+  }
+  
+
+  .password-btn {
+    background: #ffc107;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    
+  }
+  
+  .password-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .password-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -5px;
+  }

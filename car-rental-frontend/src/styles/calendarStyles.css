@@ -1,0 +1,76 @@
+
+.custom-calendar {
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.car-calendar-section{flex-wrap: wrap;}
+
+.custom-calendar .react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  background: #007bff;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  
+}
+
+.custom-calendar .react-calendar__navigation button {
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-calendar .react-calendar__navigation button:hover {
+  background: #0056b3;
+}
+
+
+.custom-calendar .react-calendar__month-view__weekdays {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+}
+
+
+.custom-calendar .react-calendar__tile {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+
+.custom-calendar .react-calendar__tile--active {
+  background: #007bff;
+  color: white;
+}
+
+.custom-calendar .react-calendar__tile:hover {
+  background: #e6f2ff;
+}
+
+
+.custom-calendar .booked-date {
+  background: #ff4d4d !important;
+  color: white !important;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+
+.custom-calendar .react-calendar__tile:disabled {
+  background: rgba(248, 75, 75, 0.5);
+  color: #ffffff;
+  cursor: not-allowed;
+}
+

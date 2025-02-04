@@ -1,0 +1,92 @@
+.edit-car-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .edit-car-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .edit-car-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-car-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .edit-car-form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  .edit-car-form-group input,
+  .edit-car-form-group select,
+  .edit-car-form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .edit-car-form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .edit-car-submit-btn {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .edit-car-submit-btn:hover {
+    background-color: #218838;
+  }
+
+  .delete-car-btn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .delete-car-btn:hover {
+    background-color: darkred;
+  }
+  
+  @media (max-width: 768px) {
+    .edit-car-container {
+      padding: 15px;
+    }
+  
+    .edit-car-form-group input,
+    .edit-car-form-group select,
+    .edit-car-form-group textarea {
+      font-size: 14px;
+    }
+  }
+  
